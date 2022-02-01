@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+<body>
+    <h2>FORMS</h2>
+    <!-- We use form tag for this 
+    action :it is a kind of backend where all of the data of form gets submitted-->
+    <form action="backend.php"></form>
+    <!-- Now here we add data for example input tags . Input is of many types like button email etc we have used text here  -->
+    <!-- label use: the input box gets selected -->
+    <label for="name"> Name</label>
+    <div>  <input type="text" name ="myName" id="name"></div>            
+    <!--div tag so that roll number comes in next line-->
+    <br>                            <!--mostly not recomended-->
+    <div>Roll No. <input type="text" name ="myRole"></div>
+    <br>
+
+    <div>
+        Email <input type="email" name="myEmail" >  <!-- Here name is that name with with backend will identify this tag-->
+
+    </div>
+    <!-- to submit the form do this -->
+    
+    <br>
+    <div>
+        <input type="date" name= "myDate">
+    </div>
+    <br>
+    <div>
+        Are you eligible?<input type="checkbox" name= "myeligibility" checked> <!--if we want this to be checked
+             by default we just write checked here-->
+    </div>
+    <br>
+    <div>
+        Gender : Male<input type="radio" name= "myGender"> FeMale<input type="radio" name= "myGender">
+    </div>
+    <br>
+    <!-- to write big paragraphs or take big paragraphs from users as input we use text area -->
+    <div>
+       Write about urself! <textarea name="mytext"  cols="30" rows="10"></textarea>
+    <br>                            <!--mostly not recomended-->
+    <br>
+
+    <div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+            <option value="Indica" selected>Indica</option>
+            <option value="swf">swift</option>
+        </select>
+
+
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit now">
+        <input type="reset" value="Reset now">
+    </div>
+    
+</body>
+</html>
