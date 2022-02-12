@@ -1,4 +1,5 @@
 p{
     color:greenyellow;
     background-color: hotpink !important;
+    /* !important takes precedence over everything (inline internal and external) */
 }
