@@ -7,4 +7,8 @@
 *Inline css: CSS is added to elements directly using style attribute.<br/>
 *Internal css: CSS is kept inside the head tags in <style> tags.<br/>
 *External css : CSS is kept separately inside a .css style sheet.(Preferred)
+ ->Selectors :CSS selectors are used to find the element whose property will be set and are used to target the HTML elements(single/Multiple).<br/>
+->There are basically four types of selectors: CSS element Selector	,CSS id selector, CSS class and css grouping selector
+																							 
+
 
