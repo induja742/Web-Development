@@ -8,7 +8,12 @@
 *Internal css: CSS is kept inside the head tags in <style> tags.<br/>
 *External css : CSS is kept separately inside a .css style sheet.(Preferred)
  ->Selectors :CSS selectors are used to find the element whose property will be set and are used to target the HTML elements(single/Multiple).<br/>
-->There are basically four types of selectors: CSS element Selector	,CSS id selector, CSS class and css grouping selector
+->There are basically four types of selectors: CSS element Selector	,CSS id selector, CSS class and css grouping selector.</br>
+->The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:</br>
+->Content - The content of the box, where text and images appear</br>
+->Padding - Clears an area around the content. The padding is transparent</br>
+->Border - A border that goes around the padding and content</br>
+->Margin - Clears an area outside the border. The margin is transparent</br>
 																							 
 
 
