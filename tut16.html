@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{                                      /*universal selector*/
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:#d0e2e2;
+        }
+        .container{
+            background-color: bisque;
+            border: 3px solid rgb(37, 155, 163);
+            /* padding-top: 20px;
+            padding-bottom: 15px;
+            padding-left: 45px;
+            padding-right: 50px; */
+
+
+           /* padding: 28px 43px 31px 44px;                        padding/margin=top right bottom left*/
+            padding: 14px 12px;/* padding: y(top/bottom) x(left/right); */
+            margin: 14px 12px;
+            border-radius: 23px;
+            width: 533px;
+            box-sizing: border-box;
+        }
+    </style>
+
+<!-- The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent -->
+</head>
+<body>
+    <div class="container">
+        <h2>This is my heading</h2>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis qui deleniti quae id deserunt quia minima eveniet ut vero, facilis repellat nemo vitae officia placeat esse officiis. Reiciendis sint placeat rem ab et numquam iusto nisi blanditiis, minus, fuga harum!</p>
+    </div>
+
+    <div class="container">
+        <h2>This is my heading</h2>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis qui deleniti quae id deserunt quia minima eveniet ut vero, facilis repellat nemo vitae officia placeat esse officiis. Reiciendis sint placeat rem ab et numquam iusto nisi blanditiis, minus, fuga harum!</p>
+    </div>
+    
+    <div class="container">
+        <h2>This is my heading</h2>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis qui deleniti quae id deserunt quia minima eveniet ut vero, facilis repellat nemo vitae officia placeat esse officiis. Reiciendis sint placeat rem ab et numquam iusto nisi blanditiis, minus, fuga harum!</p>
+    </div>
+    
+    
+</body>
+</html>
