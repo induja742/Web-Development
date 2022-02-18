@@ -14,6 +14,32 @@
 ->Padding - Clears an area around the content. The padding is transparent</br>
 ->Border - A border that goes around the padding and content</br>
 ->Margin - Clears an area outside the border. The margin is transparent</br>
+Types Of Position Property :
+There are five types of position property :
+
+static
+
+relative
+
+absolute
+
+fixed
+
+sticky
+
+position: static;
+It is the default position of HTML elements.
+position: relative;
+It is used when we need to position an HTML element relative to its normal position.
+We can set the top, right, bottom, and left properties that will cause the element to adjust away from the normal position.
+
+position: absolute;
+An element with the absolute position will move according to the position of its parent element.
+In the absence of any parent element, the HTML element will be placed relative to the page.
+
+position: fixed;
+An element with position:fixed; will remain stuck to a specific position even after the page is scrolled.
+This position property is used when we want to keep an HTML element at a fixed spot no matter where on the page the user is.
 																							 
 
 
