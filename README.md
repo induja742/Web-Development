@@ -16,16 +16,7 @@
 ->Margin - Clears an area outside the border. The margin is transparent</br>
 Types Of Position Property :
 There are five types of position property :
-
-static
-
-relative
-
-absolute
-
-fixed
-
-sticky
+static,relative,absolute,fixed,sticky
 
 position: static;
 It is the default position of HTML elements.
