@@ -14,6 +14,9 @@
 * Padding - Clears an area around the content. The padding is transparent</br>
 * Border - A border that goes around the padding and content</br>
 * Margin - Clears an area outside the border. The margin is transparent</br>
+* CSS Colors -Hex Codes
+  A hexadecimal is a 6 digit representation of a color. The first two digits (RR) represent a red
+  value, the next two are a green value (GG), and the last are the blue value (BB).
 * Types Of Position Property :
   There are five types of position property :
   static,relative,absolute,fixed,sticky
