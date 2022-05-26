@@ -34,6 +34,20 @@
 * position: fixed;
   An element with position:fixed; will remain stuck to a specific position even after the page is scrolled.
   This position property is used when we want to keep an HTML element at a fixed spot no matter where on the page the user is.
+* Data types in javascript 
+  ->Primitive data type(stack)
+  String 
+  Numbers
+  Boolean 
+  NULL
+  Undefined
+  symbol
+  ->Reference data type(heap)
+  Arrays 
+  Object literals
+  functions
+  dates
+
 																							 
 
 

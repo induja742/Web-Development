@@ -26,5 +26,11 @@ console.log(First_name);
     console.log(city);
 }
 const arr1 = [1,2,2,3,4];
+// arr1 = [2 ,3 ,4] cannot do this 
 arr1.push(45);
 console.log(arr1);
+// most common programming case types 
+// camelCase
+// kebab-case
+// Snake_case
+// PascalCase 
